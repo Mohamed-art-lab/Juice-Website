@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: grey;
+}
+
+header {
+  background-color: orangered;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+section {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+h2, h3, p {
+  color: #333;
+}
+
+.menu-item {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

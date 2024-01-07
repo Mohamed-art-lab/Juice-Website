@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juice Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <img src="donload.png" alt="Juice Logo">
+        <h1>Juice Shop</h1>
+        <p>Refreshing And Amazing</p>
+    </header>
+
+    <section>
+        <h2>Menu</h2>
+
+        <form id="juiceForm" onsubmit="placeOrder(); return false;">
+            <div class="menu-item">
+                <label>
+                    <input type="checkbox" name="flavor1" value="Orange"> Orange - ksh 400
+                </label>
+            </div>
+
+            <div class="menu-item">
+                <label>
+                    <input type="checkbox" name="flavor2" value="Apple Punch"> Apple Punch - ksh 600
+                </label>
+            </div>
+
+            <div class="menu-item">
+                <label>
+                    <input type="checkbox" name="flavor3" value="Strawberry Mint"> Strawberry Mint - ksh 650
+                </label>
+            </div>
+
+            <button type="submit">Place Order</button>
+        </form>
+
+        <p id="orderMessage"></p>
+
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
